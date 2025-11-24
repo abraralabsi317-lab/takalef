@@ -1,11 +1,13 @@
 <?php
-$car = [
-    "brand" => "Toyota",
-    "model" => "Corolla",
-    "year"  => 2020
-];
+$person = array(
+    "الاسم" => "أبرار",
+    "العمر" => 20,
+    "المدينة" => "صنعاء"
+);
 
-foreach ($car as $key => $value) {
-    echo $key . ": " . $value . "<br>";
-}
+echo "الاسم: " . $person["الاسم"] . "<br>";    
+echo "العمر: " . $person["العمر"] . "<br>";  
+echo "المدينة: " . $person["المدينة"] . "<br>";
+
+
 ?>
