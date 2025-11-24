@@ -1,7 +1,7 @@
 <?php
-function getMessage() {
-    return "Hellow PHP";
+function welcome($name) {
+    return "welcome to  " . $name . "!";
 }
 
-echo getMessage();
+echo welcome("php");
 ?>
