@@ -2,7 +2,7 @@
 session_start();
 
 $host = 'localhost';
-$dbname = 'samah_aa';
+$dbname = 'narges_aa';
 $user = 'root';
 $pass = '';
 
@@ -15,3 +15,4 @@ try {
     die("Connection failed: " . $e->getMessage());
 }
 ?>
+
